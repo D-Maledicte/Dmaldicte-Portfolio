@@ -12,6 +12,7 @@ const messages = {
     copyright: 'All rights reserved 2024',
     resumee: 'Resumee downloaded',
     resumeeGreeting: 'Thank you for your interest on my profile',
+    resumeeButton: 'Download my resumee',
     homeView: {
       aboutMe: 'About',
       learnMore: 'Learn More',
@@ -47,6 +48,7 @@ const messages = {
     copyright: 'Todos los derechos reservados 2024',
     resumee: 'CV Descargado',
     resumeeGreeting: 'Muchas gracias por tu atención en mi perfil!',
+    resumeeButton: 'Descarga mi cv aquí',
     homeView: {
       aboutMe: 'Sobre Mí',
       learnMore: 'Conoce mas',

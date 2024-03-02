@@ -43,7 +43,7 @@ const cvDownload = (title, greeting) => {
               </div>
               <div class="flex sm:flex-row flex-column align-items-center gap-2 ">
                 <SelectButton v-model="cvValue" :options="cvOptions" aria-labelledby="basic" :allowEmpty=false />
-                <Button label="Descarga mi cv aqui =>" icon="pi pi-user" @click="cvDownload($t('resumee'), $t('resumeeGreeting'))" rounded text class="w-auto md:text-base sm:text-sm text-xs" outlined></Button>
+                <Button :label="$t('resumeeButton') + ' =>'" icon="pi pi-user" @click="cvDownload($t('resumee'), $t('resumeeGreeting'))" rounded text class="w-auto md:text-base sm:text-sm text-xs" outlined></Button>
               </div>
             </div>
           </template>
